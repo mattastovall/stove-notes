@@ -2,7 +2,7 @@
 share: true
 published_url: https://mattastovall.github.io/stove-notes/decentralized-agriculture/
 ---
-
+# Propaganda for the masses
 ### "The Silicon Soil Enclosure & The Biomass Pivot"
 
 - **The Institutional Conspiracy:** The narrative pushed by the show's fringe characters claims that the expansion of cloud server farms and agricultural land purchases by billionaires isn't driven by real estate or logistics, but by an organized plot to eliminate natural livestock farming. Under this exaggerated worldview, the goal is to replace open pasture with bioreactor labs, forcing everyday consumers onto a diet of ultra-processed alternative proteins, bug flour, and industrial seed oils while preserving whole, nutrient-dense foods exclusively for corporate executives.
