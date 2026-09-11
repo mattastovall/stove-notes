@@ -1,7 +1,8 @@
 ---
 share: true
+published_url: https://mattastovall.github.io/stove-notes/decentralized-agriculture-scripts/
 ---
-# Decentralized Agriculture — Ad & Video Scripts
+# Real Food Group - Propaganda
 
 Reformatted script variants based on [[Dropshipping/RealFoodGroup/Decentralized Agriculture.md|Decentralized Agriculture]] and positioned for [[Dropshipping/RealFoodGroup/farmers market.md|Real Food Group (rfg)]] / `realfoodgroup.org`.
 
