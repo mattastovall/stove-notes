@@ -124,22 +124,23 @@ function escapeHtml(value) {
 
 function stylesCss() {
   return `
-:root { color-scheme: dark; --bg: #11130f; --ink: #e7eadb; --muted: #9ca58d; --accent: #d9ed77; --line: #30382a; }
+:root { color-scheme: dark; --bg: #151515; --ink: #ededeb; --muted: #a3a3a0; --accent: #ededeb; --line: #393939; }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.75 Georgia, serif; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Inter Tight", "Arial Narrow", "Helvetica Neue", Arial, sans-serif; font-size: 17px; line-height: 1.65; font-stretch: condensed; }
+::selection { background: var(--ink); color: var(--bg); }
 .shell { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0 120px; }
 .landing { min-height: 100vh; display: grid; align-content: center; }
-.eyebrow { color: var(--accent); font: 700 0.76rem/1.2 system-ui, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; }
-h1 { max-width: 720px; margin: 16px 0 22px; font-size: clamp(2.5rem, 8vw, 5.3rem); line-height: 0.98; letter-spacing: -0.05em; }
+.eyebrow { color: var(--muted); font: 700 0.7rem/1.2 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 0.18em; text-transform: uppercase; }
+h1 { max-width: 720px; margin: 16px 0 22px; font-size: clamp(2.5rem, 8vw, 5.3rem); font-weight: 600; line-height: 0.94; letter-spacing: -0.055em; }
 article h1 { font-size: clamp(2.5rem, 7vw, 4.5rem); }
 .lede { color: var(--muted); font-size: 1.25rem; }
-.back { display: inline-block; margin-bottom: 54px; color: var(--muted); font: 0.9rem system-ui, sans-serif; text-decoration: none; }
-.back:hover, a:hover { color: var(--accent); }
+.back { display: inline-block; margin-bottom: 54px; color: var(--muted); font: 0.82rem ui-monospace, SFMono-Regular, Menlo, monospace; text-decoration: none; }
+.back:hover, a:hover { color: var(--ink); }
 article p, article ul, article ol, article blockquote { max-width: 680px; }
 article h2, article h3 { margin-top: 2.5em; line-height: 1.15; }
 article blockquote { margin-left: 0; padding-left: 20px; border-left: 3px solid var(--accent); color: var(--muted); }
 article code { color: var(--accent); }
-a { color: var(--ink); }
+a { color: var(--ink); text-decoration-thickness: 1px; text-underline-offset: 0.16em; }
 .note-list { list-style: none; padding: 0; margin-top: 48px; border-top: 1px solid var(--line); }
 .note-list li { padding: 18px 0; border-bottom: 1px solid var(--line); }
 .note-list a { font-size: 1.3rem; text-decoration: none; }
