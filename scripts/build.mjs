@@ -47,8 +47,12 @@ async function collectMarkdown(directory) {
       .split(path.sep)
       .map((part) => slugify(part))
       .join("/");
-    const title = frontmatter.title || firstHeading(markdown) || path.basename(relativePath, ".md");
-    notes.push({ title, route, html: marked.parse(markdown) });
+    const heading = firstHeading(markdown);
+    const title = frontmatter.title || heading || path.basename(relativePath, ".md");
+    const body = heading && !frontmatter.title
+      ? markdown.replace(/^#{1,6}\s+.+$/m, "").replace(/^\n+/, "")
+      : markdown;
+    notes.push({ title, route, html: marked.parse(body) });
   }
   notes.sort((a, b) => a.title.localeCompare(b.title));
 }
