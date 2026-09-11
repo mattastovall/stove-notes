@@ -1,5 +1,6 @@
 ---
 share: true
+published_url: https://mattastovall.github.io/stove-notes/farmers-market/
 ---
 realfoodgroup.org
 
