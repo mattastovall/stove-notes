@@ -8,7 +8,7 @@ The Stove Publisher Obsidian plugin uploads notes into `content/`. GitHub Action
 
 ```text
 content/decentralized-agriculture.md
-https://mattastovall.github.io/realfoodgroup-notes/decentralized-agriculture/
+https://mattastovall.github.io/stove-notes/decentralized-agriculture/
 ```
 
 The site index is generated automatically from all files in `content/`.
