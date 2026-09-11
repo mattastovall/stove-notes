@@ -80,7 +80,7 @@ function pageTemplate(title, html, route) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${escapeHtml(title)} · Real Food Group</title>
-    <link rel="stylesheet" href="${basePath}/styles.css">
+    <link rel="stylesheet" href="${basePath}/styles.css?v=3">
   </head>
   <body>
     <main class="shell">
@@ -103,7 +103,7 @@ function indexTemplate(items) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Real Food Group Notes</title>
-    <link rel="stylesheet" href="${basePath}/styles.css">
+    <link rel="stylesheet" href="${basePath}/styles.css?v=3">
   </head>
   <body>
     <main class="shell landing">
